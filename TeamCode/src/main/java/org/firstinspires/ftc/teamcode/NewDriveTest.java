@@ -54,10 +54,10 @@ public class NewDriveTest extends LinearOpMode{
 
 
 
-            base.teleDrive(gamepad1.left_stick_y,gamepad1.right_stick_y);
+           // base.teleDrive(gamepad1.left_stick_y,gamepad1.right_stick_y);
 
 
-            /*
+
             switch(state){
                 case "start":
                     if(base.driveDistance(40)){
@@ -66,7 +66,7 @@ public class NewDriveTest extends LinearOpMode{
                         state="done";
                     }
             }
-            */
+
 
             /*double leftPower;
             double rightPower;
